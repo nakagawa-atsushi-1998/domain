@@ -1,0 +1,5 @@
+a:link { color:#ffffff; text-decoration: none; }
+a:visited { color:#eeeeee; text-decoration: none;}
+a:hover{ color:#dddddd; text-decoration: underline; }
+a:active { color:#cccccc; text-decoration:none }
+body { font-family: 'Titillium Web', sans-serif; }
