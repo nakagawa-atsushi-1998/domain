@@ -1,8 +1,5 @@
-
 .contents{
     background:url(../images/background.png) fixed repeat-y 0px 0px;
-    width: 100%;
-    max-width: 100%;
     margin: auto;
     transform-origin: 0% 0%;
 }
