@@ -13,11 +13,12 @@ a:hover{ color:#dddddd; text-decoration: underline; }
 a:active { color:#cccccc; text-decoration:none }
 @font-face {
     font-family: 'Titillium Web';
-    src: local('Titillium Web');
+    src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
     unicode-range: U+0030-0039, U+0041-007A; /* 数字 */
 }
 body {
     overflow-x: hidden;
-    font-family:'Titillium Web', 'Noto Sans JP' sans-serif;
+    /* font-family:'Titillium Web', 'Noto Sans JP' sans-serif; */
+    font-family:'Titillium Web', 'Noto Sans JP';
     margin: auto;
 }
