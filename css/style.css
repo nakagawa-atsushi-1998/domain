@@ -1,51 +1,78 @@
 .contents{
     background-image: url(https://github.com/nakagawa-atsushi-1998/domain/blob/main/images/background.png?raw=true);/*https://github.com/nakagawa-atsushi-1998/domain/blob/main/images/background.png?raw=true*/
     background-attachment: fixed;
-    max-width: 100%;
     margin: auto;
     transform-origin: 0% 0%;
 }
+@font-face {
+    font-family: 'Titillium Web';
+    src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
+    unicode-range: U+0030-0039, U+0041-007A;
+}
+body {
+    margin: auto;
+    overflow-x: hidden;
+    font-family:'Titillium Web', 'Noto Sans JP';
+}
 nav {
-    /* float: left; */
     width: 100%;
-    color:#dddddd;
     position: fixed;
-    opacity: 0.05;
-	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.1);
+    overflow: hidden;
 }
 nav ul {
     display: flex;
     justify-content: center;
-}
-li {
-    color: #ffffff;
-	padding: 1% 5%;
-    text-align: center;
     list-style: none;
 }
-li:hover:not(.active) {
+nav ul li {
+	padding: 1% 5%;
+    text-align: center;
+}
+/* nav ul li:hover:not(.active) {
     opacity: 0.1;
-	background-color: #ffffff;
+	background-color: #EEE;
+} */
+nav ul li a {
+    text-decoration: none;
+    color: #EEF;
+    font-weight: bold;
 }
-li a {
-    color: #ffffff;
+nav ul li a:hover {
+    opacity: 1;
+	color: #EEF;
 }
-li a.active {
-	background-color: #da3c41;
+nav ul li a:link {
+    opacity: 1;
+	color: #EEF;
 }
-h2 { color:#dddddd }
-p { color:#dddddd }
-a:link { color:#ffffff; text-decoration: none; }
-a:visited { color:#eeeeee; text-decoration: none;}
-a:hover{ color:#dddddd; text-decoration: underline; }
-a:active { color:#dddddd; text-decoration:none }
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
-    unicode-range: U+0030-0039, U+0041-007A; /* 数字 */
+nav ul li a:active {
+	color: #EEF;
 }
-body {
-    overflow-x: hidden;
-    font-family:'Titillium Web', 'Noto Sans JP';
-    margin: auto;
+nav ul li a:visited {
+    opacity: 1;
+	color: #DDF;
 }
+h2 { color:#EEF }
+p { color:#EEF }
+a:hover{ color:#EEF; text-decoration: underline; }
+a:link { color:#EEF; text-decoration: none; }
+a:active { color:#EEF; text-decoration:none; }
+a:visited { color:#DDF; text-decoration: none;}
+label { color:#EEF }
+input { color:#EEF }
+textarea { color:#EEF }
+
+/*
+.box {
+    overflow-y: scroll;
+    /* IE, Edge 対応
+    -ms-overflow-style: none;
+    /* Firefox 対応
+    scrollbar-width: none;
+}
+   /* Chrome, Safari 対応
+.box::-webkit-scrollbar {
+    display:none;
+}
+*/
