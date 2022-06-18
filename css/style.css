@@ -1,5 +1,6 @@
 .contents{
-    background-image:url("../images/background.png") !important;
+    background-image: url(https://github.com/nakagawa-atsushi-1998/domain/blob/main/images/background.png?raw=true);/*https://github.com/nakagawa-atsushi-1998/domain/blob/main/images/background.png?raw=true*/
+    background-attachment: fixed;
     max-width: 100%;
     margin: auto;
     transform-origin: 0% 0%;
