@@ -59,9 +59,47 @@ a:hover{ color:#EEF; text-decoration: underline; }
 a:link { color:#EEF; text-decoration: none; }
 a:active { color:#EEF; text-decoration:none; }
 a:visited { color:#DDF; text-decoration: none;}
-label { color:#EEF }
-input { color:#EEF }
-textarea { color:#EEF }
+
+.media {
+    width: 30%;
+    color:#EEF;
+    margin: auto auto;
+    text-align: left;
+}
+.media .icon {
+    width: 50%;
+    height: 12px;
+}
+.media .value {
+    width: 50%;
+    height: 50px;
+}
+.contact {
+    width: 50%;
+    color:#EEF;
+    margin: auto auto;
+    text-align: left;
+}
+.label {
+    width: 200px;
+    height: 50px;
+}
+.value {
+    width: 200px;
+    height: 50px;
+}
+textarea { 
+    color:#EEF;
+    width: 200px;
+    height: 100px;
+}
+.submit {
+    color:#221;
+    background-color: #EEF;
+    width: 80px;
+    height: 25px;
+    border-radius: 100vh;
+}
 
 /*
 .box {

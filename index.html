@@ -2,7 +2,8 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Works</title>
+    <title>Nakagawa</title>
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,16 +14,19 @@
         <nav>
             <ul>
                 <li><a href="#profile">Profile</a></li>
-                <li><a href="#works"> Works </a></li>
-                <li><a href="#media"> Media </a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#"> </a></li>
             </ul>
         </nav>
-        <br><br><br>
-        <img src="images/concept.png" alt="krake" oncontextmenu="return false;">
-        
 
-        <section class="profile" id="profile">
+
+        <img src="images/concept.png" alt="krake" oncontextmenu="return false;">
+
+
+        <section id="profile">
+        <p><br><br><br></p>
         <h2>Profile</h2>
         <p>
             <br>
@@ -33,74 +37,85 @@
             保有資格：基本情報技術者, C言語検定2級, LinuC-1<br>
             <br>
         </p>
-        <p>
-            <br><br><br>
-        </p>
         </section>
 
 
-        <section class="profile" id="works">
+        <section id="works">
+            <p><br><br><br></p>
             <h2>Works</h2>
             <p>
                 <br>
                 　ありません。<br>
                 <br>
             </p>
-            <p>
-                <br><br><br>
-            </p>
         </section>
 
 
-        <section class="profile" id="media">
-        <h2>Media</h2>
-        <br>
-        <a href="https://twitter.com/Yugata_Ohayo">Twitter</a><br>
-        <br>
-        <a href="https://github.com/nakagawa-atsushi-1998">GitHub</a><br>
-        <br>
-        <a href="">Qiita</a><br>
-        <br>
-        <a href="">Note</a><br>
-        <br>
-        <a href="">YouTube</a><br>
-        <br>
-        <p>
-            <br><br><br>
-        </p>
+        <section id="media">
+            <p><br><br><br></p>
+            <h2>Media</h2>
+            <br>
+            <table class="media">
+                <tr>
+                    <th class="icon"><img src="images/icon_twitter.png"></th>
+                    <td class="value"><a href="https://twitter.com/Yugata_Ohayo">Twitter</a><br></td>
+                </tr>
+                <tr>
+                    <th class="icon"><img src="images/icon_github.png"></th>
+                    <td class="value"><a href="https://github.com/nakagawa-atsushi-1998">GitHub</a><br></td>
+                </tr>
+                <tr>
+                    <th class="icon"><img src="images/icon_qiita.png"></th>
+                    <td class="value"><a href="">Qiita</a><br></td>
+                </tr>
+                <tr>
+                    <th class="icon"><img src="images/icon_note.png"></th>
+                    <td class="value"><a href="">Note</a><br></td>
+                </tr>
+                <tr>
+                    <th class="icon"><img src="images/icon_youtube.png"></th>
+                    <td class="value"><a href="">Youtube</a><br></td>
+                </tr>
+            </table>
         </section>
 
 
-        <section class="profile" id="contact">
+        <section id="contact">
+            <p><br><br><br></p>
             <h2>Contact</h2>
-            <div>
-                <label>名前</label>
-                <input type="text" name="name" placeholder="例）山田太郎" value="">
-            </div>
-            <div>
-                <label>メールアドレス</label>
-                <input type="text" name="email" placeholder="例）guest@example.com" value="">
-            </div>
-            <div>
-                <label>電話番号</label>
-                <input type="text" name="tel" placeholder="例）0000000000" value="">
-            </div>
-            <div>
-                <label>件名</label>
-                <input type="text" name="title" placeholder="例）案件依頼" value="">
-            </div>
-            <div>
-                <label>内容</label>
-                <textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea>
-            </div>
-            <p>
-                <br><br><br>
-            </p>
+            <br>
+            <form action="">
+                <table class="contact">
+                    <tr>
+                        <th class="label">名前</th>
+                        <td class="value"><input type="text" name="name" placeholder="" value=""></td>
+                    </tr>
+                    <tr>
+                        <th class="label">メールアドレス</th>
+                        <td class="value"><input type="text" name="email" placeholder="" value=""></td>
+                    </tr>
+                    <tr>
+                        <th class="label">電話番号</th>
+                        <td class="value"><input type="text" name="tel" placeholder="" value=""></td>
+                    </tr>
+                    <tr>
+                        <th class="label">件名</th>
+                        <td class="value"><input type="text" name="title" placeholder="" value=""></td>
+                    </tr>
+                    <tr>
+                        <th class="label">内容</th>
+                        <td class="value"><textarea name="content" rows="8" placeholder=""></textarea></td>
+                    </tr>
+                </table>
+            </form>
+            <input class="submit" type="submit" value="送信" />
         </section>
 
 
-        <p>
-            <br><br><br>
-        </p>
+        <p><br><br><br></p>
+        <p><br><br><br></p>
+        <p><br><br><br></p>
+        <p><br><br><br></p>
+        <p><br><br><br></p>
     </center></div>
 </body>
