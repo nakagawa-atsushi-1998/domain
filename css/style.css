@@ -1,16 +1,8 @@
 .contents{
-    background:url(../images/background.png) fixed repeat-y 0px 0px;
+    background:url("../images/background.png") fixed repeat-y 0px 0px;
+    width: 100%;
     margin: auto;
     transform-origin: 0% 0%;
-}
-.full-width {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-}
-.full-img {
-    width: 100vw;
-    width: auto;
-    margin-left: calc(-50vw + 50%);
 }
 h2 {color:#dddddd}
 p { color:#dddddd }
