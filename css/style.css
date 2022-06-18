@@ -5,12 +5,40 @@
     margin: auto;
     transform-origin: 0% 0%;
 }
-h2 {color:#dddddd}
+nav {
+    /* float: left; */
+    width: 100%;
+    color:#dddddd;
+    position: fixed;
+    opacity: 0.05;
+	background-color: #ffffff;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    color: #ffffff;
+	padding: 1% 5%;
+    text-align: center;
+    list-style: none;
+}
+li:hover:not(.active) {
+    opacity: 0.1;
+	background-color: #ffffff;
+}
+li a {
+    color: #ffffff;
+}
+li a.active {
+	background-color: #da3c41;
+}
+h2 { color:#dddddd }
 p { color:#dddddd }
 a:link { color:#ffffff; text-decoration: none; }
 a:visited { color:#eeeeee; text-decoration: none;}
 a:hover{ color:#dddddd; text-decoration: underline; }
-a:active { color:#cccccc; text-decoration:none }
+a:active { color:#dddddd; text-decoration:none }
 @font-face {
     font-family: 'Titillium Web';
     src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
@@ -18,7 +46,6 @@ a:active { color:#cccccc; text-decoration:none }
 }
 body {
     overflow-x: hidden;
-    /* font-family:'Titillium Web', 'Noto Sans JP' sans-serif; */
     font-family:'Titillium Web', 'Noto Sans JP';
     margin: auto;
 }
